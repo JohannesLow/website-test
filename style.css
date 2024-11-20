@@ -27,8 +27,9 @@
   }
 
 .pub-pad {
+	align-items: center;
 	width: fit-content;
-	background-color: pink;
+	background-color: white;
 }
 
 .carousel-item img {
