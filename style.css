@@ -28,7 +28,7 @@
 
 .pub-pad {
 	align-items: center;
-	width: fit-content;
+	padding: 25px 100px;
 	background-color: white;
 }
 
