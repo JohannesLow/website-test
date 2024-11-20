@@ -6,12 +6,24 @@
 
 }
 
+body, html {
+	height: 100%; /* Ensure the body takes up the full height */
+	margin: 0; /* Remove default margins */
+	display: flex;
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+  }
+  
+  .navbar {
+	width: auto; /* Adjust width as needed */
+  }
+  
 .dropdown {
 	position: relative;
 	display: inline-block;
   }
   
-	.dropdown-menu {
+  .dropdown-menu {
 	position: absolute;
 	top: 100%; /* Position below the trigger */
 	left: 0;   /* Align with the left edge of the dropdown */
