@@ -27,7 +27,7 @@
   }
 
 .pub-pad {
-	width: 85%;
+	width: fit-content;
 	background-color: pink;
 }
 
