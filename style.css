@@ -6,38 +6,6 @@
 
 }
 
-body, html {
-	height: 100%; /* Ensure the body takes up the full height */
-	margin: 0; /* Remove default margins */
-	display: flex;
-	justify-content: center; /* Center horizontally */
-	align-items: center; /* Center vertically */
-  }
-  
-  .navbar {
-	width: auto; /* Adjust width as needed */
-  }
-  
-.dropdown {
-	position: relative;
-	display: inline-block;
-  }
-  
-  .dropdown-menu {
-	position: absolute;
-	top: 100%; /* Position below the trigger */
-	left: 0;   /* Align with the left edge of the dropdown */
-	min-width: 160px; /* Minimum width for the menu */
-	z-index: 1000; /* Keep it above other elements */
-	background-color: white;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-	overflow: auto; /* Enable scrolling if needed */
-	max-height: 300px; /* Limit height to avoid overflowing viewport */
-  }
-  
-  .dropdown-menu.stay-in-viewport {
-	right: 0; /* Align with the right edge if needed */
-  }
 
 .carousel-item img{
 	width: 100%;
